@@ -1,0 +1,52 @@
+/*
+  Custom styles for KOPI KAYANA
+  Author: UAS Cyberpreneurship
+*/
+
+:root {
+  --primary-dark: #1f1f1f;
+  --accent: #f7b733;
+  --soft-bg: #f8f9fa;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", sans-serif;
+  color: #2b2b2b;
+  background-color: #ffffff;
+}
+
+/* Hero Section */
+.hero-section {
+  min-height: 85vh;
+  background: linear-gradient(120deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.35)),
+    url("../img/product3.jpg") center/cover no-repeat;
+  padding: 120px 0;
+}
+
+.hero-section .btn-warning {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  color: #1b1b1b;
+}
+
+/* Contact Card */
+.contact-card {
+  background-color: var(--soft-bg);
+  border: 1px solid #e9ecef;
+}
+
+/* Navbar styling */
+.navbar-brand {
+  letter-spacing: 1px;
+}
+
+/* Cards */
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-dark);
+}
